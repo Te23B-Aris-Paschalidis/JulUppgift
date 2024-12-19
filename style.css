@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&display=swap');
+
 /* Enkel CSS-reset */
 html {
     box-sizing: border-box;
@@ -43,21 +45,21 @@ ul {
 }
 
 li {
- list-style-type: none;   
+    list-style-type: none;
 }
 
 a {
     text-decoration: none;
     color: #fff;
-    background-color: #091540 ;
+    background-color: #091540;
     padding: 10px;
     border-radius: 3px;
     width: 140px;
     display: inline-block;
     box-shadow: 1px 1px #999;
-    text-align: center; 
-    margin-right: 10px;
-    
+    text-align: center;
+    margin-right: -30px;
+
 }
 
 .box {}
@@ -69,14 +71,14 @@ h2 {
 }
 
 form {
-   
+
     /* Alice Blue */
     padding: 20px;
     border-radius: 10px;
 }
 
 label {
-    color: #228b22;
+    color: goldenrod;
     /* Forest Green */
 }
 
@@ -87,7 +89,6 @@ textarea {
 
 button {
     background-color: #dc143c;
-
     color: white;
     border: none;
     padding: 5px 10px;
@@ -115,6 +116,13 @@ button {
     background-color: #00ff00;
     color: black;
 }
-textarea{
 
+textarea {}
+
+.text {
+    font-family: "Mountains of Christmas", serif;
+    color: yellow;
+    text-align: center;
+    margin: 100px auto;
+    font-size: 30px;
 }
